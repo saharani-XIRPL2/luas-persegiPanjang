@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .panjang-container{
+            background-color: black;
+            color: azure;
+            width: 500px;
+            padding: 50px;
+            margin: auto;
+            border: 3px solid gray;
+        }
+        button{
+            background-color: azure;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: gray;
+            color: azure;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="panjang-container">
+        <h1>persegi panjang</h1>
+        <p>panjang</p>
+        <input class="panjang" type="text">
+        <p>lebar</p>
+        <input class="lebar" type="text"><br><br>
+        <button onclick="myFunction()" class="luas">calculate</button>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
